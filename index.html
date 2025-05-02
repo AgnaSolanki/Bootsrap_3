@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Protact</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- Latest Bootstrap 5.3 CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap 5.3 Bundle JS (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script
+      src="https://kit.fontawesome.com/ccd9f8e8be.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/ccd9f8e8be.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <header class="container-fluid p-0">
+      <nav class="navbar navbar-expand-lg bg-white py-3 shadow-sm">
+        <div class="container text-dark">
+          <!-- Logo -->
+          <a class="navbar-brand text-warning fw-bold fs-3" href="#">
+            <img src="./image.png" alt="logo" class="logo-img" />
+          </a>
+
+          <!-- Toggle button for mobile -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- Collapsible content -->
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="nav justify-content-center text-uppercase navigation">
+              <li class="nav-item">
+                <a class="nav-link my-2" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark my-2" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark my-2" href="#">Get a Quote</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-dark my-2"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  >Pages</a
+                >
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Page1</a></li>
+                  <li><a class="dropdown-item" href="#">Page2</a></li>
+                  <li><a class="dropdown-item" href="#">Page3</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark my-2" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark my-2" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section>
+      <div class="container-fluid hero-section text-center">
+        <div class="hero-overlay"></div>
+        <!-- translucent black overlay -->
+        <div
+          class="hero-content d-flex flex-column justify-content-center align-items-center text-center"
+        >
+          <h1 class="text-white logo-container mx-5">
+            We Love Your
+            <span class="logo-text-wrapper">
+              <span class="logo-text">Family</span>
+              <span class="heart">❤</span>
+            </span>
+          </h1>
+
+          <p class="text mx-5">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quos
+            optio labore, tenetur reprehenderit enim. Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Cumque, nam?
+          </p>
+          <button href="#" class="btn button mb-5">Get a Quote</button>
+          <div class="container">
+            <div
+              class="d-flex justify-content-between align-items-center justify-content-sm-between nav-line mt-5"
+            >
+              <!-- Item 1 -->
+              <div class="insurance-item text-center">
+                <div class="icon-circle">
+                  <i class="fa-solid fa-heart-pulse"></i>
+                </div>
+                <p class="text-white mt-2">LIFE INSURANCE</p>
+              </div>
+
+              <!-- Item 2 -->
+              <div class="insurance-item text-center">
+                <div class="icon-circle">
+                  <i class="fa-solid fa-house"></i>
+                </div>
+                <p class="text-white mt-2">HOUSE INSURANCE</p>
+              </div>
+
+              <!-- Item 3 -->
+              <div class="insurance-item text-center">
+                <div class="icon-circle">
+                  <i class="fa-solid fa-train-subway"></i>
+                </div>
+                <p class="text-white mt-2">TRAVEL INSURANCE</p>
+              </div>
+
+              <!-- Item 4 -->
+              <div class="insurance-item text-center">
+                <div class="icon-circle">
+                  <i class="fa-solid fa-car"></i>
+                </div>
+                <p class="text-white mt-2">CAR INSURANCE</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="container-fluid d-flex justify-content-end align-items-center mt-5 me-0"
+      >
+        <div class="row position-relative row1">
+          <div
+            class="col-md-6 d-flex flex-column justify-content-start align-items-start mt-5 text-start col1"
+          >
+            <div class="contact-heading">
+              <span class="line"></span>
+              <span class="text">CONTACT US</span>
+            </div>
+            <h3 class="text-capitalize">Protect your beloved family.</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo amet
+              quibusdam earum modi vel in dolore nisi fuga praesentium
+              exercitationem vero non quae voluptates magnam, blanditiis aut
+              explicabo quas voluptatibus.
+            </p>
+            <button class="btn button mb-5">Contact With Email</button>
+          </div>
+
+          <div class="col-md-6 position-relative">
+            <div class="contact-image">
+              <img
+                src="https://media.istockphoto.com/id/1226082621/photo/insurance-concept-stack-of-wooden-blocks-with-words-life-health-legal-expenses-business-house.jpg?s=612x612&w=0&k=20&c=5bKk7pRl9jewZM_nmIquyGOj4Q7BVNiYRcJC9H1smfE="
+                alt="contact"
+                class="img-fluid img"
+              />
+            </div>
+
+            <button
+              type="button"
+              class="btn btn-btn"
+              data-bs-toggle="tooltip"
+              data-bs-placement="bottom"
+              title="+1-234-56789"
+            >
+              <div class="insurance-item text-center">
+                <div class="icon-circle">
+                  <i class="fa-solid fa-phone"></i>
+                </div>
+              </div>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="container-fluid d-flex justify-content-end align-items-center mt-5 me-0"
+      >
+        <div class="row position-relative row2 mt-5">
+          <div class="col-12 col-lg-5 col-md-12 position-relative h-100">
+            <div class="contact-image mr-0">
+              <img
+                src="https://media.istockphoto.com/id/1443472327/photo/happy-pension-couple-with-laptop-and-paperwork-for-retirement-planning-online-ecommerce.jpg?s=612x612&w=0&k=20&c=51aTSm9RX1gbjiasWxTcoyxEtwc3fIo_YEdhHqr-Cr8="
+                alt="contact"
+                class="img-fluid img"
+              />
+            </div>
+          </div>
+          <div
+            class="col-12 col-lg-2 col-md-4 col-sm-4 h-100 d-flex justify-content-start justify-content-md-center justify-content-sm-center"
+          >
+            <div class="d-flex flex-column align-items-center nav-lines">
+              <div class="insurance-menu">
+                <div class="insurance-box active">
+                  <i class="fa-solid fa-heart-pulse"></i>
+                  <p>LIFE INSURANCE</p>
+                </div>
+                <div class="insurance-box">
+                  <i class="fa-solid fa-house"></i>
+                  <p>HOUSE INSURANCE</p>
+                </div>
+                <div class="insurance-box">
+                  <i class="fa-solid fa-train-subway"></i>
+                  <p>TRAVEL INSURANCE</p>
+                </div>
+                <div class="insurance-box">
+                  <i class="fa-solid fa-car"></i>
+                  <p>CAR INSURANCE</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-12 col-lg-5 col-md-8 col-sm-8 d-flex flex-column justify-content-start align-items-start text-start justify-content-sm-center justify-content-md-center col2 h-100"
+          >
+            <div class="contact-heading mt-5">
+              <span class="line"></span>
+              <span class="text">GET QUOTE</span>
+            </div>
+            <h3 class="text-capitalize">
+              Protect your health in a holistic way
+            </h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo amet
+              quibusdam earum modi vel in dolore nisi fuga praesentium
+              exercitationem vero non quae voluptates magnam,
+            </p>
+            <button class="btn button mb-5">Get a Quote</button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="container-fluid d-flex justify-content-end align-items-center mt-5 me-0"
+      >
+        <div class="row position-relative row1">
+          <div
+            class="col-12 col-lg-6 col-md-12 d-flex flex-column justify-content-start align-items-start text-start col1"
+          >
+            <div class="contact-heading mt-5">
+              <span class="line"></span>
+              <span class="text">FAQ</span>
+            </div>
+            <h3 class="text-capitalize">Our mission is to happiness</h3>
+            <div class="faq-section container">
+              <div class="faq-item">
+                <div class="faq-question">
+                  <span class="dot"></span>
+                  HOW DO I VIEW MY PROOF OF INSURANCE?
+                </div>
+                <div class="faq-answer">
+                  <div class="faq-card">
+                    <div class="card1">
+                      <p class="mr-3">
+                        Please contact your agent, call 1-234-567-789, access it
+                        from our
+                        <a href="#">mobile app</a> or log in to
+                        <a href="#">Online Account Access</a>.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="faq-item">
+                <div class="faq-question">
+                  <span class="dot1"></span>
+                  WHO SHOULD I CALL TO REPORT A LOSS?
+                </div>
+              </div>
+
+              <div class="faq-item">
+                <div class="faq-question">
+                  <span class="dot1"></span>
+                  WHAT DO WE DO TO RESTORE COVERAGE?
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-6 col-md-12 position-relative">
+            <div class="contact-image">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1GXJpN95GliK9a26lznlq_OSrM9JST6apew&s"
+                alt="contact"
+                class="img-fluid img"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="container d-flex justify-content-center align-items-center mt-5 me-0"
+      >
+        <div class="row position-relative">
+          <!-- Left Column (Text content) -->
+          <div
+            class="col-12 col-md-6 d-flex flex-column justify-content-start justify-content-md-center align-items-start text-start col1 mb-5 mb-md-0"
+          >
+            <div class="contact-heading text-start">
+              <span class="line"></span>
+              <span class="text">OUR VISION</span>
+            </div>
+            <h3 class="text-capitalize mb-4 text-start">
+              WE always provide the best insurance
+            </h3>
+
+            <div class="faq-section w-100">
+              <div class="faq-answers">
+                <div class="faq-cards">
+                  <div class="cards">
+                    <p class="text-start">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Ab, esse quae. Deserunt, quasi. Nam itaque quo maiores
+                      voluptates ipsa laborum omnis nemo, deserunt asperiores?
+                      Dolorums
+                    </p>
+                    <h5 class="mt-3 mb-0 text-start">Joseph Ramos</h5>
+                  </div>
+
+                  <div
+                    class="d-flex flex-column flex-sm-row justify-content-between align-items-center mt-3 gap-3 px-3"
+                  >
+                    <div class="carousel-indicators-customs">
+                      <span>●</span><span>●</span><span>●</span>
+                    </div>
+                    <div class="carousel-indicators-customs">
+                      <span>★</span><span>★</span><span>★</span><span>★</span
+                      ><span>☆</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column (Statistics content) -->
+          <div
+            class="col-12 col-md-6 d-flex justify-content-center align-items-center mt-5"
+          >
+            <div
+              class="container d-flex flex-column justify-content-center images align-items-center mt-5"
+            >
+              <div class="row g-0 text-center stat-grid">
+                <div class="col-6 col-md-4">
+                  <div
+                    class="stat-box with-bg"
+                    style="
+                      --bg-url: url('https://d26oc3sg82pgk3.cloudfront.net/files/media/edit/image/54929/article_full%401x.jpg');
+                    "
+                  >
+                    <h2>8</h2>
+                    <p>Professional Agents</p>
+                  </div>
+                </div>
+                <div class="col-6 col-md-4">
+                  <div
+                    class="stat-box with-bg"
+                    style="
+                      --bg-url: url('https://d26oc3sg82pgk3.cloudfront.net/files/media/edit/image/54929/article_full%401x.jpg');
+                    "
+                  >
+                    <h2>12</h2>
+                    <p>Insurance Type</p>
+                  </div>
+                </div>
+                <div class="col-6 col-md-4">
+                  <div
+                    class="stat-box with-bg"
+                    style="
+                      --bg-url: url('https://d26oc3sg82pgk3.cloudfront.net/files/media/edit/image/54929/article_full%401x.jpg');
+                    "
+                  >
+                    <h2>1689+</h2>
+                    <p>Customer Satisfaction</p>
+                  </div>
+                </div>
+                <div class="col-6 col-md-4">
+                  <div
+                    class="stat-box with-bg"
+                    style="
+                      --bg-url: url('https://d26oc3sg82pgk3.cloudfront.net/files/media/edit/image/54929/article_full%401x.jpg');
+                    "
+                  >
+                    <h2>6+</h2>
+                    <p>Years Of Experience</p>
+                  </div>
+                </div>
+                <div class="col-6 col-md-4">
+                  <div
+                    class="stat-box with-bg"
+                    style="
+                      --bg-url: url('https://d26oc3sg82pgk3.cloudfront.net/files/media/edit/image/54929/article_full%401x.jpg');
+                    "
+                  >
+                    <h2>20</h2>
+                    <p>Excellent Staff</p>
+                  </div>
+                </div>
+                <div class="col-6 col-md-4">
+                  <div
+                    class="stat-box with-bg"
+                    style="
+                      --bg-url: url('https://d26oc3sg82pgk3.cloudfront.net/files/media/edit/image/54929/article_full%401x.jpg');
+                    "
+                  >
+                    <h2>14+</h2>
+                    <p>Our Awards</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container py-5">
+        <div class="text-start mb-4">
+          <div class="contact-heading">
+            <span class="line"></span>
+            <span class="text">Latest News</span>
+          </div>
+          <h3 class="section-title mt-2">Latest News Agent Insurance.</h3>
+        </div>
+
+        <div class="row g-4">
+          <!-- News Card 1 -->
+          <div class="col-md-4">
+            <div class="card h-100 position-relative">
+              <div class="news-date-box position-absolute">
+                <div class="news-date">24<br /><small>Jun</small></div>
+              </div>
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-pcLgoGpL-VclLwFfHkOOl3VtZxkPQY7A0A&s"
+                class="card-img-top"
+                alt="News"
+              />
+              <div class="card-body pt-4">
+                <h5 class="card-title">
+                  Lorem Ipsum Dol Consectetur Adipiscing Lacinia Elit.
+                </h5>
+                <p class="news-meta mb-2">
+                  <i class="fa-solid fa-user texts"></i> by author &nbsp; |
+                  &nbsp; <i class="fa-solid fa-bookmark texts"></i> Company
+                  &nbsp; | &nbsp; <i class="fa-solid fa-comment texts"></i> 0
+                  comments
+                </p>
+                <p class="card-text">
+                  Phasellus et libero lacus. Pellentesque urna condimentum...
+                </p>
+                <a href="#" class="learn-more texts">Learn More</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- News Card 2 -->
+          <div class="col-md-4">
+            <div class="card h-100 position-relative">
+              <div class="news-date-box position-absolute">
+                <div class="news-date">24<br /><small>Jun</small></div>
+              </div>
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-pcLgoGpL-VclLwFfHkOOl3VtZxkPQY7A0A&s"
+                class="card-img-top"
+                alt="News"
+              />
+              <div class="card-body pt-4">
+                <h5 class="card-title">
+                  Lorem Ipsum Dol Consectetur Adipiscing Lacinia Elit.
+                </h5>
+                <p class="news-meta mb-2">
+                  <i class="fa-solid fa-user texts"></i> by author &nbsp; |
+                  &nbsp; <i class="fa-solid fa-bookmark texts"></i> Company
+                  &nbsp; | &nbsp; <i class="fa-solid fa-comment texts"></i> 0
+                  comments
+                </p>
+                <p class="card-text">
+                  Phasellus et libero lacus. Pellentesque urna condimentum...
+                </p>
+                <a href="#" class="learn-more texts">Learn More</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- News Card 3 -->
+          <div class="col-md-4">
+            <div class="card h-100 position-relative">
+              <div class="news-date-box position-absolute">
+                <div class="news-date">24<br /><small>Jun</small></div>
+              </div>
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-pcLgoGpL-VclLwFfHkOOl3VtZxkPQY7A0A&s"
+                class="card-img-top"
+                alt="News"
+              />
+              <div class="card-body pt-4">
+                <h5 class="card-title">
+                  Lorem Ipsum Dol Consectetur Adipiscing Lacinia Elit.
+                </h5>
+                <p class="news-meta mb-2">
+                  <i class="fa-solid fa-user texts"></i> by author &nbsp; |
+                  &nbsp; <i class="fa-solid fa-bookmark texts"></i> Company
+                  &nbsp; | &nbsp; <i class="fa-solid fa-comment texts"></i> 0
+                  comments
+                </p>
+                <p class="card-text">
+                  Phasellus et libero lacus. Pellentesque urna condimentum...
+                </p>
+                <a href="#" class="learn-more texts">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Carousel Indicators -->
+        <div class="carousel-indicators-custom mt-4 icon">
+          <span>●</span>
+          <span>●</span>
+          <span>●</span>
+        </div>
+      </div>
+      <div class="container-fluid bg">
+        <div class="bgColor"></div>
+        <div
+          class="bgContent d-flex flex-column justify-content-center align-items-center text-center text-white px-3"
+        >
+          <div class="hero-heading d-flex flex-column align-items-center">
+            <div class="line"></div>
+            <h5 class="text-white text-uppercase fw-bold my-2 py-1">
+              Insurance Travel
+            </h5>
+            <div class="line"></div>
+          </div>
+
+          <p class="my-4">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero
+            iure dolorem est accusamus labore quas incidunt provident deserunt
+            omnis aspernatur!
+          </p>
+          <button class="btn button mb-5">Get a Quote</button>
+          <div class="carousel-indicators-customs mt-5">
+            <span>●</span>
+            <span>●</span>
+            <span>●</span>
+            <span>●</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="bg-white text-center text-lg-start text-muted pt-5">
+      <div class="container text-md-start">
+        <div class="row">
+          <div class="text-center my-4 w-100">
+            <img src="./image.png" alt="Logo" />
+          </div>
+
+          <!-- About Agent -->
+          <div class="col-md-4 mb-4">
+            <h6 class="text-uppercase fw-bold text-start texts mb-3">
+              About Agent
+            </h6>
+            <p class="text-muted">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem ipsum dolor sit amet consectetur, adipisicing
+              elit. Facere, molestiae!
+            </p>
+            <div class="mt-3">
+              <ul
+                class="navbar-nav flex-row justify-content-md-start justify-content-center align-items-center"
+              >
+                <li class="nav-item m-2">
+                  <a class="nav-link text-white p-0" href="#">
+                    <i class="fa-brands fa-facebook texts"></i>
+                  </a>
+                </li>
+                <li class="nav-item m-2">
+                  <a class="nav-link text-white p-0" href="#">
+                    <i class="fa-brands fa-twitter texts"></i>
+                  </a>
+                </li>
+                <li class="nav-item m-2">
+                  <a class="nav-link text-white p-0" href="#">
+                    <i class="fa-brands fa-pinterest-p texts"></i>
+                  </a>
+                </li>
+                <li class="nav-item m-2">
+                  <a class="nav-link text-white p-0" href="#">
+                    <i class="fa-brands fa-google-plus-g texts"></i>
+                  </a>
+                </li>
+                <li class="nav-item m-2">
+                  <a class="nav-link text-white p-0" href="#">
+                    <i class="fa-brands fa-linkedin-in texts"></i>
+                  </a>
+                </li>
+                <li class="nav-item m-2">
+                  <a class="nav-link text-white p-0" href="#">
+                    <i class="fa-brands fa-instagram texts"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Insurance Services -->
+          <div class="col-md-4 mb-4">
+            <h6 class="text-uppercase fw-bold texts text-start mb-3">
+              Insurance Services
+            </h6>
+            <div class="row">
+              <div class="col-6">
+                <ul class="style">
+                  <li><a href="#">Life Insurance</a></li>
+                  <li><a href="#">Health Insurance</a></li>
+                  <li><a href="#">Car Insurance</a></li>
+                  <li><a href="#">Boat Insurance</a></li>
+                </ul>
+              </div>
+              <div class="col-6">
+                <ul class="style">
+                  <li><a href="#">Pet Insurance</a></li>
+                  <li><a href="#">Business Insurance</a></li>
+                  <li><a href="#">Travel Insurance</a></li>
+                  <li><a href="#">Insurance Markets</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Us -->
+          <div class="col-md-4 mb-4">
+            <h6 class="text-uppercase fw-bold texts mb-3">Contact Us</h6>
+            <div class="row rows">
+              <div class="col-md-2">
+                <p class="text-muted mb-1">
+                  <i class="fa-solid fa-phone"></i>
+                </p>
+              </div>
+              <div class="col-md-10">
+                <p>+1-234-56789</p>
+              </div>
+            </div>
+            <div class="row rows">
+              <div class="col-md-2">
+                <p class="text-muted mb-1">
+                  <i class="fa-solid fa-house"></i>
+                </p>
+              </div>
+              <div class="col-md-10">
+                <p>2739 Avenue New York, United States</p>
+              </div>
+            </div>
+            <div class="row rows">
+              <div class="col-md-2">
+                <p class="text-muted mb-1">
+                  <i class="fa-solid fa-clock"></i>
+                </p>
+              </div>
+              <div class="col-md-10">
+                <p>Available: 8:00am - 4:00pm</p>
+                <p>Sat: 9:00am - 4:00pm</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Footer Bottom -->
+      </div>
+    </footer>
+    <div class="container-fluid text-center text-muted py-3 border-top">
+      © 2025 Designed by Eagle Theme. All rights reserved.
+    </div>
+
+    <script>
+      // Initialize tooltips
+      var tooltipTriggerList = [].slice.call(
+        document.querySelectorAll('[data-bs-toggle="tooltip"]')
+      );
+      var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl);
+      });
+    </script>
+  </body>
+</html>
