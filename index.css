@@ -479,7 +479,9 @@
   padding-right: 20px;
   display: block;
 }
-
+.card-text {
+  color: gray;
+}
 .faq-card {
   padding: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -492,7 +494,7 @@
   border-right: none;
   border-top: none;
   border-bottom: none;
-  border-radius: 0%;
+  border-radius: 0% !important;
   padding: 5px;
   margin: 15px;
 }
@@ -553,7 +555,7 @@
   border-right: none;
   border-top: none;
   border-bottom: none;
-  border-radius: 0%;
+  border-radius: 0% !important;
   padding: 5px;
   color: white;
   margin: 15px;
@@ -694,7 +696,9 @@
   padding-left: 1.2em;
   margin-bottom: 0.5rem;
 }
-
+.card > .card-img-top {
+  border-radius: 0;
+}
 .style li::before {
   content: "●";
   position: absolute;
@@ -750,7 +754,8 @@
 }
 
 .card {
-  overflow: visible; /* Allow date box to overflow card boundaries */
+  overflow: visible;
+  border-radius: 0; /* Allow date box to overflow card boundaries */
 }
 
 /* Carousel Dots Aligned Left */
@@ -854,7 +859,10 @@
   }
 }
 .carousel-indicators-custom span {
-  color: green; /* Change color to green */
+  color: #5ac72b; /* Change color to green */
 
   margin: 0 5px; /* Adjust spacing between indicators */
+}
+.text-mute {
+  color: #a5a4a4;
 }
